@@ -9,31 +9,23 @@ body {
     margin: 3rem auto;
     gap: 1rem;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .rest-name {
     font-size: 7.2rem;
 }
 
-.section {
-    height: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    background-size: cover;
-    background-position: center center;
+img {
+    width: calc(1080px / 3);
 }
 
 .text {
-    font-size: 2.7rem;
-    text-shadow: 3px 3px 3px black;
+    box-sizing: border-box;
+    font-size: 2.2rem;
+    line-height: 4.3rem;
     padding: 1.6rem 3.2rem;
-    width: 70%;
-    color: white;
+    width: calc(1080px / 3);
 }
-
-/* img {
-    width: 48rem;
-} */
