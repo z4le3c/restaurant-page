@@ -5,14 +5,35 @@ body {
     margin: 0;
 }
 #content {
-    padding:2rem;
-}
-.section {
+    width: 1080px;
+    margin: 3rem auto;
+    gap: 1rem;
+
     display: flex;
-    gap: 1.6rem;
-    font-size: 2.6rem;
+    flex-direction: column;
 }
 
-img {
-    width: 50rem;
+.rest-name {
+    font-size: 7.2rem;
 }
+
+.section {
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text {
+    font-size: 2.7rem;
+    text-shadow: 3px 3px 3px black;
+    padding: 1.6rem 3.2rem;
+    width: 70%;
+    color: white;
+}
+
+/* img {
+    width: 48rem;
+} */
