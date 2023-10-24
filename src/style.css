@@ -49,3 +49,33 @@ img {
     padding: 1.6rem 3.2rem;
     width: calc(1080px / 3);
 }
+
+.category {
+    font-size: 1.8rem;
+    width: calc(1080px / 3);
+    box-sizing: border-box;
+    align-self: start;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.category-name {
+    padding: .8rem;
+    font-weight: bold;
+}
+
+.items-wrapper {
+    border-left: 3px solid black;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.menu-item-wrapper {
+    display: flex;
+    gap: 3.2rem;
+    justify-content: space-between;
+}

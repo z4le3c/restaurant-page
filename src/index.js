@@ -1,4 +1,5 @@
-import {loadHome} from './homePage';
+import { loadHome } from './homePage';
+import { loadMenu } from './menuPage';
 
 let contentDiv = document.querySelector('#content');
 let currentPage = 'home'
@@ -50,11 +51,11 @@ const load = (page) => {
             loadHome();
             break;
         case 'menu':
-            //loadMenu
+            loadMenu();
             break;
         case 'contact':
             //loadContact
             break;
     }
-}; load('home');
+}; load('menu');
 

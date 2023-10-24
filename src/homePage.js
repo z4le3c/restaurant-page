@@ -1,6 +1,9 @@
 import './style.css'
 
+let contentDiv
+
 const loadHome = () => {
+    contentDiv = document.querySelector('#content');
     loadSection(
         `Welcome to "Elysian Eats," where culinary artistry meets opulent ambiance in a symphony of indulgence. Nestled in the heart of the city's most vibrant district, this high-end restaurant is a gastronomic haven for those seeking an unforgettable dining experience. As you step through the imposing mahogany doors, you're greeted by an enchanting fusion of modern elegance and timeless charm.`,
         'https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg',
@@ -21,7 +24,6 @@ const loadHome = () => {
 }
 
 const loadSection = (text, imgURL) => {
-    let contentDiv = document.querySelector('#content');
     let imgTag = document.createElement('img');
     imgTag.setAttribute('src',imgURL);
     let textDiv = document.createElement('div');
