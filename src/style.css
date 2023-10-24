@@ -14,8 +14,28 @@ body {
     align-items: center;
 }
 
-.rest-name {
-    font-size: 7.2rem;
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.home-tab {
+    font-size: 6.4rem;
+    padding: .8rem 1.6rem;
+}
+.menu-tab, .contact-tab {
+    font-size: 3.6rem;
+    padding: .8rem 1.6rem;
+
+}
+
+.menu-tab:hover, .contact-tab:hover, .home-tab:hover {
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.menu-tab:active, .contact-tab:active, .home-tab:active {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 img {
