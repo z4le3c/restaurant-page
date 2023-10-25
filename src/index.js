@@ -58,5 +58,5 @@ const load = (page) => {
             loadContact();
             break;
     }
-}; load('contact');
+}; load('home');
 
